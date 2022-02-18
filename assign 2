@@ -1,0 +1,21 @@
+count=0
+
+def isprime(n): for i in range(2,n):
+
+if n%i==0:
+
+return False
+
+return True
+
+n=int(input("Enter the value of N:"))
+
+for i in range(2,n+1):
+
+if isprime(i):
+
+count-count+1
+
+print(i)
+
+print("Number of Primes from 1-n=",count)
